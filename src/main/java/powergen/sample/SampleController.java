@@ -1,14 +1,17 @@
-package spring.common;
+package powergen.sample;
 
+import org.apache.log4j.Logger;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller(value="/common.do")
-public class CommonController {
+public class SampleController {
 
+	private Logger logger = Logger.getLogger(SampleController.class);
+	
 	@RequestMapping(params="method=getIndex")
 	public String getIndex() {
-		return "index";
+		logger.info("execute getIndex");
+		return "sampleIndex";
 	}
-	
 }

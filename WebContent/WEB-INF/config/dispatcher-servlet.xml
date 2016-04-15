@@ -18,7 +18,7 @@
     <!-- annotation config & scan -->
     <context:annotation-config />
  
-    <context:component-scan base-package="spring.common">
+    <context:component-scan base-package="powergen">
         <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
         <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Service"/>
         <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Repository"/>

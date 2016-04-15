@@ -6,6 +6,6 @@
 	      	 http://www.springframework.org/schema/beans 
 	       	 http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
       
-    <beans:import resource="context/context-common.xml" />
+<!--     <beans:import resource="context-common.xml" /> -->
      
 </beans:beans>

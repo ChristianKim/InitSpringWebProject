@@ -9,7 +9,7 @@
 		<layout class="org.apache.log4j.PatternLayout">
 			<param name="DateFormat" value="ISO8601"/>
 			<param name="TimeZoneID" value="GMT-8:00"/>
-			<param name="ConversionPattern" value="[%d] %-5p - %m%n" />
+			<param name="ConversionPattern" value="[%d] (%C) %M %-5p - %m%n" />
 		</layout>
 	</appender>
 	
@@ -28,7 +28,6 @@
 	<logger name="org.springframework">
 		<level value="ERROR" />
 	</logger>
-	 
 	 
 	<root>
 	<level value="DEBUG" />

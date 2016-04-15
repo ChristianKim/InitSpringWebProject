@@ -1,0 +1,59 @@
+
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+	xmlns:beans="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+	http://www.springframework.org/schema/security
+	http://www.springframework.org/schema/security/spring-security-4.0.xsd">
+
+
+<!-- 	<http pattern="/**" security="none"/> -->
+
+
+<!--  	<http pattern="/pub/**" security="none"/> -->
+<!--     <http pattern="/css/**" security="none"/> -->
+<!--     <http pattern="/images/**" security="none"/> -->
+<!--     <http pattern="/js/**" security="none"/> -->
+<!--     <http pattern="\A/WEB-INF/jsp/.*\Z" request-matcher="regex" security="none"/> -->
+
+<!-- 	<http pattern="/login/**" security="none"/> -->
+<!-- 	<http pattern="/resources/**" security="none"/> -->
+
+<!-- 	<http pattern="/common/cadreader/cardReaderInit.json" security="none"/> -->
+	
+<!-- 	<http pattern="/default/doormonitor/*" security="none"/> -->
+	
+<!-- 	<http pattern="/favicon.ico" security="none" /> -->
+
+<!-- 	<http auto-config='true'> -->
+<!-- 		<intercept-url pattern="/**" access="IS_AUTHENTICATED_FULLY" /> -->
+
+<!-- 		<form-login login-page="/login/login.do" authentication-failure-url="/login/login.do" -->
+<!-- 		login-processing-url="/j_spring_security_check" default-target-url="/"/> -->
+
+<!-- 			<form-login login-page="/login/SSOCheck.do" authentication-failure-url="/login/login.do" -->
+<!-- 				login-processing-url="/j_spring_security_check" default-target-url="/main.do"/> -->
+
+
+<!-- 		<form-login login-page='/login/login.do' -->
+<!-- 					authentication-failure-url="/common/loginError.jsp" -->
+<!-- 					default-target-url='/'/> -->
+
+<!-- 		<logout logout-url="/j_spring_security_logout" -->
+<!--                            logout-success-url="/login/logout.do" -->
+<!--                            invalidate-session="true" /> -->
+
+<!-- 		<session-management invalid-session-url="/rtz/login/login.do?redirectCd=2" -->
+<!-- 							session-authentication-error-url="/rtz/login/login.do?redirectCd=3"> -->
+
+<!-- 	    	<concurrency-control max-sessions="1" /> -->
+
+<!--   		</session-management> -->
+
+<!--   		<logout delete-cookies="JSESSIONID" /> -->
+
+<!-- 		<custom-filter after="EXCEPTION_TRANSLATION_FILTER" ref="ajaxSessionTimeoutFilter"/> -->
+<!--     </http> -->
+
+</beans:beans>
